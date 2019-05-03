@@ -6,6 +6,8 @@ To create the unit file:
 - vi ords.service
 - copy and paste the following file
 - adapt the paths to your environment setup
+- save the new unit file
+- chmod 755 (x+r) the new unit file
 
 This is the sample file:
 ```
