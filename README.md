@@ -18,7 +18,7 @@ After=oracle-rdbms.service
 
 [Service]
 Type=simple
-ExecStart=/bin/java -jar /opt/ords/ords.war
+ExecStart=/bin/java -jar /opt/ords/ords.war standalone
 ExecStop=/bin/kill -HUP ${MAINPID}
 User=oracle
 
